@@ -1,0 +1,4 @@
+C:/Dev/CLION/cmake-build-debug/CMakeFiles/Task1.dir
+C:/Dev/CLION/cmake-build-debug/CMakeFiles/Task2.dir
+C:/Dev/CLION/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Dev/CLION/cmake-build-debug/CMakeFiles/rebuild_cache.dir

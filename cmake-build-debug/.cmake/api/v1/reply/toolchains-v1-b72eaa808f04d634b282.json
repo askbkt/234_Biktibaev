@@ -1,0 +1,75 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/\u2568\u0420\u2564\u0411\u2568\u2551\u2568\u2591\u2564\u0410/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+						"C:/Users/\u2568\u0420\u2564\u0411\u2568\u2551\u2568\u2591\u2564\u0410/AppData/Local/Programs/CLion/bin/mingw/include",
+						"C:/Users/\u2568\u0420\u2564\u0411\u2568\u2551\u2568\u2591\u2564\u0410/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+						"C:/Users/\u2568\u0420\u2564\u0411\u2568\u2551\u2568\u2591\u2564\u0410/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/\u2568\u0420\u2564\u0411\u2568\u2551\u2568\u2591\u2564\u0410/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0",
+						"C:/Users/\u2568\u0420\u2564\u0411\u2568\u2551\u2568\u2591\u2564\u0410/AppData/Local/Programs/CLion/bin/mingw/lib/gcc",
+						"C:/Users/\u2568\u0420\u2564\u0411\u2568\u2551\u2568\u2591\u2564\u0410/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib",
+						"C:/Users/\u2568\u0420\u2564\u0411\u2568\u2551\u2568\u2591\u2564\u0410/AppData/Local/Programs/CLion/bin/mingw/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"iconv",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "C:/Users/\u0410\u0441\u043a\u0430\u0440/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe",
+				"version" : "13.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Users/\u0410\u0441\u043a\u0430\u0440/AppData/Local/Programs/CLion/bin/mingw/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

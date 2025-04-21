@@ -106,6 +106,39 @@ build Task2.exe: C_EXECUTABLE_LINKER__Task2_Debug CMakeFiles/Task2.dir/Homework_
   TARGET_IMPLIB = libTask2.dll.a
   TARGET_PDB = Task2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Task3
+
+
+#############################################
+# Order-only phony target for Task3
+
+build cmake_object_order_depends_target_Task3: phony || .
+
+build CMakeFiles/Task3.dir/Homework_1/Task_3.c.obj: C_COMPILER__Task3_unscanned_Debug C$:/Dev/CLION/Homework_1/Task_3.c || cmake_object_order_depends_target_Task3
+  DEP_FILE = CMakeFiles\Task3.dir\Homework_1\Task_3.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Task3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Task3.dir\Homework_1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task3
+
+
+#############################################
+# Link the executable Task3.exe
+
+build Task3.exe: C_EXECUTABLE_LINKER__Task3_Debug CMakeFiles/Task3.dir/Homework_1/Task_3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Task3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Task3.exe
+  TARGET_IMPLIB = libTask3.dll.a
+  TARGET_PDB = Task3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +169,8 @@ build Task1: phony Task1.exe
 
 build Task2: phony Task2.exe
 
+build Task3: phony Task3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -151,7 +186,7 @@ build codegen: phony
 #############################################
 # Folder: C:/Dev/CLION/cmake-build-debug
 
-build all: phony Task1.exe Task2.exe
+build all: phony Task1.exe Task2.exe Task3.exe
 
 # =============================================================================
 # Built-in targets
